@@ -13,7 +13,7 @@ plainBox.color= "black";
 plainBox.size = 9;
 plainBox.contents = [];
 
-console.log(plainBox);
+// console.log(plainBox);
 
 /*
     # An object with properties declared line by line
@@ -30,6 +30,16 @@ console.log(plainBox);
             - add a key named `passengers` and set it to be an empty array.
  */
 
+var stockCar = {
+    model: "Nissan",
+    year: 2014,
+    automaticTransmission: true,
+    driver: null,
+    passengers: [],
+
+};
+
+console.log(stockCar);
 
 /*
     Add new property inside a function
